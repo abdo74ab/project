@@ -1,12 +1,16 @@
 * {
     box-sizing: border-box;
 }
+.prod {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
 .card {
     width: 250px;
-    height: 335px;
     background-color: #eee;
-    margin: 50px auto;
     padding: 20px;
+    margin-left: 50px;
 }
 .card h2 {
     background-color: cornflowerblue;
